@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #1e293b;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    background: #ff8c00;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* About Section */
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.about-container img {
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Impact Section */
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+/* Testimonials */
+.testimonials-container {
+    background: #ddd;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Contact Section */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #ff8c00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
